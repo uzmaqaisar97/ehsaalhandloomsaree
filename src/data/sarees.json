@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "royal-crimson-banarasi",
+    "title": "Royal Crimson Banarasi Silk Saree",
+    "category": "banarasi",
+    "fabric": "Pure Banarasi Silk",
+    "color": ["crimson", "gold"],
+    "price": 18999,
+    "originalPrice": 22999,
+    "blousePiece": true,
+    "occasion": ["wedding", "festive", "reception"],
+    "images": [
+      "/images/sarees/placeholder-1.jpg",
+      "/images/sarees/placeholder-2.jpg"
+    ],
+    "description": "A regal Banarasi weave with intricate zari motifs across the body and a richly brocaded pallu. Handcrafted in Varanasi, this saree is ideal for weddings and festive celebrations.",
+    "inStock": true,
+    "tags": ["wedding", "zari", "handwoven", "festive"]
+  },
+  {
+    "slug": "temple-gold-kanjivaram",
+    "title": "Temple Gold Kanjivaram Saree",
+    "category": "kanjivaram",
+    "fabric": "Pure Kanjivaram Silk",
+    "color": ["gold", "maroon"],
+    "price": 24500,
+    "originalPrice": 28900,
+    "blousePiece": true,
+    "occasion": ["wedding", "festive"],
+    "images": [
+      "/images/sarees/placeholder-3.jpg",
+      "/images/sarees/placeholder-4.jpg"
+    ],
+    "description": "Classic Kanjivaram silk with contrasting temple-border detailing and a lustrous drape. Woven on traditional looms in Kanchipuram for timeless South Indian elegance.",
+    "inStock": true,
+    "tags": ["temple border", "silk", "bridal", "traditional"]
+  },
+  {
+    "slug": "emerald-kanjivaram-brocade",
+    "title": "Emerald Brocade Kanjivaram",
+    "category": "kanjivaram",
+    "fabric": "Silk Brocade",
+    "color": ["emerald", "gold"],
+    "price": 22100,
+    "blousePiece": true,
+    "occasion": ["wedding", "reception", "party"],
+    "images": ["/images/sarees/placeholder-5.jpg"],
+    "description": "Deep emerald silk adorned with gold brocade peacock motifs. A statement piece for receptions and formal gatherings.",
+    "inStock": true,
+    "tags": ["brocade", "peacock", "reception"]
+  },
+  {
+    "slug": "ivory-pearl-banarasi",
+    "title": "Ivory Pearl Banarasi Saree",
+    "category": "banarasi",
+    "fabric": "Tissue Silk",
+    "color": ["ivory", "pearl"],
+    "price": 16750,
+    "originalPrice": 19500,
+    "blousePiece": false,
+    "occasion": ["wedding", "festive"],
+    "images": [
+      "/images/sarees/placeholder-6.jpg",
+      "/images/sarees/placeholder-7.jpg"
+    ],
+    "description": "Delicate tissue silk in soft ivory with subtle pearl-toned zari work. Lightweight and luminous — perfect for daytime ceremonies.",
+    "inStock": false,
+    "tags": ["tissue", "day wedding", "minimal"]
+  },
+  {
+    "slug": "midnight-silk-jamdani",
+    "title": "Midnight Silk Jamdani Saree",
+    "category": "silk",
+    "fabric": "Silk Jamdani",
+    "color": ["navy", "silver"],
+    "price": 14200,
+    "blousePiece": true,
+    "occasion": ["party", "reception"],
+    "images": ["/images/sarees/placeholder-8.jpg"],
+    "description": "Fine silk jamdani with floating floral motifs on a deep navy ground. An understated luxury for evening events.",
+    "inStock": true,
+    "tags": ["jamdani", "evening", "floral"]
+  },
+  {
+    "slug": "saffron-tussar-silk",
+    "title": "Saffron Tussar Silk Saree",
+    "category": "silk",
+    "fabric": "Tussar Silk",
+    "color": ["saffron", "rust"],
+    "price": 9800,
+    "originalPrice": 11500,
+    "occasion": ["festive", "casual"],
+    "images": [
+      "/images/sarees/placeholder-9.jpg",
+      "/images/sarees/placeholder-10.jpg"
+    ],
+    "description": "Natural tussar silk with a warm saffron hue and textured hand-feel. Pairs beautifully with antique gold jewellery.",
+    "inStock": true,
+    "tags": ["tussar", "natural", "handloom"]
+  },
+  {
+    "slug": "bengal-cotton-jamdani",
+    "title": "Bengal Cotton Jamdani Saree",
+    "category": "cotton",
+    "fabric": "Handloom Cotton",
+    "color": ["white", "indigo"],
+    "price": 4500,
+    "blousePiece": true,
+    "occasion": ["casual", "festive"],
+    "images": ["/images/sarees/placeholder-11.jpg"],
+    "description": "Breathable handloom cotton with indigo jamdani motifs. A graceful everyday and summer-festival favourite.",
+    "inStock": true,
+    "tags": ["handloom", "summer", "casual"]
+  },
+  {
+    "slug": "terracotta-block-print-cotton",
+    "title": "Terracotta Block Print Cotton",
+    "category": "cotton",
+    "fabric": "Mul Cotton",
+    "color": ["terracotta", "cream"],
+    "price": 3200,
+    "occasion": ["casual", "office"],
+    "images": ["/images/sarees/placeholder-12.jpg"],
+    "description": "Soft mul cotton with artisanal block prints in earthy terracotta tones. Easy to drape and care for.",
+    "inStock": true,
+    "tags": ["block print", "artisan", "everyday"]
+  },
+  {
+    "slug": "blush-chiffon-ombre",
+    "title": "Blush Ombre Chiffon Saree",
+    "category": "chiffon",
+    "fabric": "Georgette-Chiffon Blend",
+    "color": ["blush", "rose"],
+    "price": 5600,
+    "originalPrice": 6800,
+    "blousePiece": false,
+    "occasion": ["party", "festive"],
+    "images": ["/images/sarees/hero-blush.jpg"],
+    "description": "Feather-light chiffon with a soft blush-to-rose ombre fade. Fluid movement and a contemporary silhouette.",
+    "inStock": true,
+    "tags": ["ombre", "party", "lightweight"]
+  },
+  {
+    "slug": "wine-georgette-sequin",
+    "title": "Wine Georgette Sequin Saree",
+    "category": "georgette",
+    "fabric": "Georgette",
+    "color": ["wine", "gold"],
+    "price": 7200,
+    "blousePiece": true,
+    "occasion": ["party", "reception"],
+    "images": ["/images/sarees/placeholder-2.jpg"],
+    "description": "Rich wine georgette scattered with delicate gold sequin embellishment. Designed for cocktail evenings and sangeet nights.",
+    "inStock": true,
+    "tags": ["sequin", "party", "evening"]
+  },
+  {
+    "slug": "sage-linen-handwoven",
+    "title": "Sage Handwoven Linen Saree",
+    "category": "linen",
+    "fabric": "Pure Linen",
+    "color": ["sage", "natural"],
+    "price": 6100,
+    "occasion": ["office", "casual"],
+    "images": ["/images/sarees/hero-sage.jpg"],
+    "description": "Crisp pure linen in a calming sage palette with a natural slub texture. Modern minimalism with artisan soul.",
+    "inStock": true,
+    "tags": ["minimal", "office", "sustainable"]
+  },
+  {
+    "slug": "sunset-linen-zari-border",
+    "title": "Sunset Linen Zari Border Saree",
+    "category": "linen",
+    "fabric": "Linen Silk Blend",
+    "color": ["coral", "gold"],
+    "price": 8400,
+    "originalPrice": 9900,
+    "blousePiece": true,
+    "occasion": ["festive", "office", "casual"],
+    "images": [
+      "/images/sarees/placeholder-4.jpg",
+      "/images/sarees/placeholder-5.jpg"
+    ],
+    "description": "Linen-silk blend in warm coral with a fine gold zari border. Bridges casual linen comfort with festive polish.",
+    "inStock": true,
+    "tags": ["zari border", "festive", "blend"]
+  }
+]
