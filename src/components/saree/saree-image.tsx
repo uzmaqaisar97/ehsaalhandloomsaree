@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { cn } from "@/lib/utils";
 
 type SareeImageProps = {
@@ -7,7 +5,6 @@ type SareeImageProps = {
   alt: string;
   className?: string;
   priority?: boolean;
-  sizes?: string;
 };
 
 export function SareeImage({
@@ -15,7 +12,6 @@ export function SareeImage({
   alt,
   className,
   priority = false,
-  sizes = "(max-width: 768px) 100vw, 33vw",
 }: SareeImageProps) {
   return (
     <div
@@ -24,13 +20,13 @@ export function SareeImage({
         className,
       )}
     >
-      <Image
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
         src={src}
         alt={alt}
-        fill
-        className="object-cover"
-        sizes={sizes}
-        priority={priority}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        className="absolute inset-0 size-full object-cover"
       />
     </div>
   );

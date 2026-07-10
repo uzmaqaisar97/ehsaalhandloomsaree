@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { SiteLogo } from "@/components/brand/site-logo";
 import { footerNavLinks, getWhatsAppUrl, siteConfig, socialLinks } from "@/lib/navigation";
 
 function InstagramIcon({ className }: { className?: string }) {
@@ -47,14 +48,15 @@ export function SiteFooter() {
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-4">
-            <Link href="/" className="inline-block">
-              <span className="font-heading text-2xl text-primary">
+            <SiteLogo showText={false} className="inline-flex" />
+            <div>
+              <p className="font-heading text-xl text-primary sm:text-2xl">
                 {siteConfig.name}
-              </span>
-            </Link>
-            <p className="font-heading text-sm italic text-gold sm:text-base">
-              {siteConfig.slogan}
-            </p>
+              </p>
+              <p className="mt-1 font-heading text-sm italic text-gold sm:text-base">
+                {siteConfig.slogan}
+              </p>
+            </div>
             <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
               {siteConfig.description}
             </p>

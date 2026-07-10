@@ -2,7 +2,6 @@
 
 import { useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -47,13 +46,13 @@ export function HeroSection() {
       <div className="absolute inset-0 grid grid-cols-2 grid-rows-2">
         {heroImages.map((src, index) => (
           <div key={src} className="relative">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={src}
               alt=""
-              fill
-              className="object-cover"
-              sizes="50vw"
-              priority={index === 0}
+              className="absolute inset-0 size-full object-cover"
+              loading={index === 0 ? "eager" : "lazy"}
+              decoding="async"
               aria-hidden
             />
             <div

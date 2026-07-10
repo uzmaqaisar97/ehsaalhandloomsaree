@@ -8,6 +8,7 @@ import gsap from "gsap";
 import { Menu, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { SiteLogo } from "@/components/brand/site-logo";
 import { mainNavLinks, siteConfig } from "@/lib/navigation";
 import { cn } from "@/lib/utils";
 
@@ -86,21 +87,7 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:h-[4.5rem] sm:px-6 lg:px-8">
-        <Link
-          href="/"
-          className="group flex flex-col leading-none"
-          onClick={closeMenu}
-        >
-          <span className="font-heading text-lg tracking-wide text-primary sm:text-xl lg:text-2xl">
-            {siteConfig.name}
-          </span>
-          <span className="mt-0.5 hidden text-[0.65rem] uppercase tracking-[0.2em] text-muted-foreground sm:block">
-            {siteConfig.tagline}
-          </span>
-          {/* <span className="mt-0.5 hidden text-[0.6rem] tracking-wide text-muted-foreground/80 md:block">
-            {siteConfig.location}
-          </span> */}
-        </Link>
+        <SiteLogo onClick={closeMenu} />
 
         <nav
           className="hidden items-center gap-1 md:flex"

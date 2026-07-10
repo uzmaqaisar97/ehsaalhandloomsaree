@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Eshaal Saree & Adan Saree">
+  <defs>
+    <linearGradient id="gold" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8C56A"/>
+      <stop offset="1" stop-color="#B8892E"/>
+    </linearGradient>
+    <linearGradient id="maroon" x1="12" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B1E3F"/>
+      <stop offset="1" stop-color="#5C1228"/>
+    </linearGradient>
+    <linearGradient id="silk" x1="20" y1="18" x2="44" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5E8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F2D4A5" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer gold ring -->
+  <circle cx="32" cy="32" r="30" stroke="url(#gold)" stroke-width="2.5" fill="url(#maroon)"/>
+
+  <!-- Inner zari border -->
+  <circle cx="32" cy="32" r="24" stroke="url(#gold)" stroke-width="1" stroke-opacity="0.55"/>
+
+  <!-- Saree pallu drape -->
+  <path
+    d="M18 22C24 18 34 17 42 20C46 21.5 48 24 47 28C45.5 34 38 40 32 44C26 40 20.5 33 18 26C17 23.5 17 23.5 18 22Z"
+    fill="url(#silk)"
+    stroke="url(#gold)"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+  />
+
+  <!-- Pleat lines -->
+  <path d="M24 24C26 30 27 36 28 41" stroke="#B8892E" stroke-width="0.9" stroke-linecap="round" opacity="0.7"/>
+  <path d="M30 23C31 30 31.5 37 32 42" stroke="#B8892E" stroke-width="0.9" stroke-linecap="round" opacity="0.85"/>
+  <path d="M36 24C35 31 34.5 37 34 41" stroke="#B8892E" stroke-width="0.9" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Monogram E -->
+  <path
+    d="M27 48H37M27 48C27 44.5 29 42.5 32 42.5C35 42.5 37 44.5 37 48M27 48V52.5H37"
+    stroke="url(#gold)"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Jewel accent -->
+  <circle cx="46" cy="18" r="2.2" fill="url(#gold)"/>
+</svg>
